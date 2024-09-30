@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul.navitems{
+    background-color: #AAB396;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #674636;
+}
+a:hover{
+    color: #F7EED3;
+}
+li{
+    padding: 15px;
+}
+#bgimg{
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+}
+#navlogo{
+    height: 30px;
+    width: 30px;
+}
+#homelink{
+    margin-left: auto;
+}
+#galleryImg{
+    height: 350px;
+    width: 350px;
+    border: 2px solid #674636;
+    margin: 20px;
+    border-radius: 10px;
+    filter: drop-shadow(#674636 1rem 1rem 10px);
+}
+#mainG{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #FFF8E8;
+}
